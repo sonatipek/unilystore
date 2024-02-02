@@ -4,7 +4,7 @@ import { CursorArrowRaysIcon } from "@heroicons/react/24/outline";
 export default function Hero() {
   return (
     <section className="flex flex-col-reverse lg:flex-row items-center justify-between container mx-auto mt-12 lg:pl-40 pl-3">
-      <div className="lg:w-1/2 w-full pt-5 lg:pt-0">
+      <div className="lg:w-1/2 w-full pt-5 lg:pt-0 ml-8 lg:ml-0">
         <span className="font-medium text-sm text-slate-600">
           Bu sezon herkes sizi konuşacak 🔥
         </span>
@@ -18,7 +18,7 @@ export default function Hero() {
         </Button>
       </div>
 
-      <div className="relative w-1/2 self-start lg:self-baseline ">
+      <div className="relative w-1/2 self-start lg:self-baseline mx-auto">
         <img
           src="/unily_logo.svg"
           alt="unily logo"
