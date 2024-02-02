@@ -6,6 +6,7 @@ In this project I practiced the use of React hooks like `useState`, `useReducer`
 <br>
 In this project, I basically aimed to practice map objects, implement useContext and create responsive UI.
 <br>
+![Unily Store Mockup](https://github.com/sonatipek/unilystore/assets/80075444/0af3bb03-2788-43b6-bdbe-4f2379f94343)
 
 ## 👨🏻‍💻 Tech Stack
 
