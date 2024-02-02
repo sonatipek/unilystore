@@ -2,7 +2,7 @@
 
 # Unily Store Mock E-Commerce Theme
 
-In this project I practiced the use of React hooks like `useState`, `useReducer` and `useContext`. I used `Tailwindcss` for CSS framework, ``React.js` for JS fremework and `Vite` for module bundler and development environment. I used HeadlessUI for the Navbar component.
+In this project I practiced the use of React hooks like `useState`, `useReducer` and `useContext`. I used `Tailwindcss` for CSS framework, `React.js` for JS fremework and `Vite` for module bundler and development environment. I used HeadlessUI for the Navbar component.
 <br>
 In this project, I basically aimed to practice map objects, implement useContext and create responsive UI.
 <br>
