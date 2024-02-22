@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Header />
       <App />
       <Footer />
-      <Analytics />
     </CartContextProvider>
+    <Analytics />
   </>
 );
