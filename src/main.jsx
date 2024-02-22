@@ -7,10 +7,12 @@ import CartContextProvider from "./contexts/CartContext.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <CartContextProvider>
-    <Header />
-    <App />
-    <Footer />
-    <Analytics />
-  </CartContextProvider>
+  <>
+    <CartContextProvider>
+      <Header />
+      <App />
+      <Footer />
+      <Analytics />
+    </CartContextProvider>
+  </>
 );

@@ -12,7 +12,7 @@ function App() {
       {offCanvasState && <Cart />}
       <Hero />
       <Products />
-      <Testimonials /> 
+      <Testimonials />
     </>
   );
 }

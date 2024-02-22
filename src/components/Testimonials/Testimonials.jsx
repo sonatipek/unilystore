@@ -1,3 +1,4 @@
+import React from "react";
 import TestimonialItem from "./TestimonialItem";
 import { PiHandSwipeRight, PiHandSwipeLeft } from "react-icons/pi";
 
@@ -40,7 +41,7 @@ const testimonialsContent = [
   },
 ];
 
-export default function Testimonials() {
+function Testimonials() {
   return (
     <section className="px-4">
       <h1 className="text-4xl text-indigo-950 font-bold text-center mt-24 mb-6">
@@ -59,3 +60,7 @@ export default function Testimonials() {
     </section>
   );
 }
+
+const MemoizedTestimonials = React.memo(Testimonials);
+
+export default MemoizedTestimonials;

@@ -12,7 +12,7 @@ export default function ProductCard({ product }) {
     addItem(product);
     setOffCanvasState(true);
   };
-
+  
   return (
     <li>
       <Card>

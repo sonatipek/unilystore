@@ -1,14 +1,17 @@
+import React from "react";
 import Button from "../ui/Button";
 import { CursorArrowRaysIcon } from "@heroicons/react/24/outline";
 
-export default function Hero() {
+function Hero() {
   return (
     <section className="flex flex-col-reverse lg:flex-row items-center justify-between container mx-auto mt-12 lg:pl-40 pl-3">
       <div className="lg:w-1/2 w-full pt-5 lg:pt-0 ml-8 lg:ml-0">
         <span className="font-medium text-sm text-slate-600">
           Bu sezon herkes sizi konuşacak 🔥
         </span>
-        <h2 className="text-4xl sm:text-6xl font-light leading-10 w-2/3">Güvenle alışveriş yapın!</h2>
+        <h2 className="text-4xl sm:text-6xl font-light leading-10 w-2/3">
+          Güvenle alışveriş yapın!
+        </h2>
 
         <Button
           icon={{ setIcon: <CursorArrowRaysIcon className="size-6" /> }}
@@ -33,3 +36,6 @@ export default function Hero() {
     </section>
   );
 }
+const MemoizedHero = React.memo(Hero);
+
+export default MemoizedHero;
